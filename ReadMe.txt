@@ -14,4 +14,3 @@ How to run this app.
     $ mvn spring-boot:run
 
 Before running tests, edit the file: src/test/resources/application.properties
-1)
