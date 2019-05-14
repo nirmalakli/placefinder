@@ -10,7 +10,11 @@ How to run this app.
 2) Compile the changes:
     $ mvn clean install -DskipTests
 
+    Note: Before running tests, edit the file: src/test/resources/application.properties
+
 3) Run app:
     $ mvn spring-boot:run
 
-Before running tests, edit the file: src/test/resources/application.properties
+4) Rest Endpoints:
+    a) http://localhost:8080/places/aundh/chinese%20restaurants
+    b) http://localhost:8080/places/aundh/chinese%20restaurants?distance=500&searchProvider=GOOGLE
